@@ -11,6 +11,7 @@ const App: React.FC = () => {
     return (
         <div>
             <Navbar />
+            <Inicio/>
             <Routes>
                 <Route path="/" element={<Inicio />} />
                 <Route path="/servicios" element={<Servicios />} />
