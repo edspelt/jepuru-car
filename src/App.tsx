@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar'; // Ajusta la ruta según tu estructura de carpetas
+import Navbar from './components/Navbar';
 import Inicio from './pages/Inicio';
 import Servicios from './pages/Servicios';
 import Vehiculos from './pages/Vehiculos';
@@ -11,7 +11,6 @@ const App: React.FC = () => {
     return (
         <div>
             <Navbar />
-            <Inicio/>
             <Routes>
                 <Route path="/" element={<Inicio />} />
                 <Route path="/servicios" element={<Servicios />} />
